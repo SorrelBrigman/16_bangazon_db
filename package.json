@@ -1,0 +1,23 @@
+{
+  "name": "16_bangazon_db",
+  "version": "1.0.0",
+  "description": "Class exercise in database creation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SorrelBrigman/16_bangazon_db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SorrelBrigman/16_bangazon_db/issues"
+  },
+  "homepage": "https://github.com/SorrelBrigman/16_bangazon_db#readme",
+  "dependencies": {
+    "sqlite3": "^3.1.8"
+  }
+}
