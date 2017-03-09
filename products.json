@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "name": "pencil sharper",
+      "price": "2.99",
+      "description": "Metal casing and steel blade. Standard size."
+    },
+    {
+      "name": "tesla model S",
+      "price": "99000",
+      "description": "full-sized all-electric five-door, luxury liftback, produced by Tesla Inc., and introduced in June 2012"
+    },
+    {
+      "name": "olive & sinclair chocolate bar",
+      "price": "7.99",
+      "description": "Stone ground artisan chocolate."
+    },
+    {
+      "name": "light bulb",
+      "price": "4.99",
+      "description": "LED standard sized bulb.  All the lumens."
+    },
+    {
+      "name": "nalgene water bottle",
+      "price": "9.99",
+      "description": "32 oz quality water bottle. BPA free."
+    },
+    {
+      "name": "dry erase markers",
+      "price": "5.99",
+      "description": "Standard size, standard colors."
+    },
+    {
+      "name": "6 foot step ladder",
+      "price": "69.99",
+      "description": "aluminum ladder, 6 foot, collapsable ladder."
+    },
+    {
+      "name": "Stonewall Kitchen Waffle Mix",
+      "price": "9.99",
+      "description": "Specialty waffle mix.  Original flavor"
+    },
+    {
+      "name": "Bentons Bacon",
+      "price": "20.99",
+      "description": "Best bacon money can buy.  One pound package, thick cut."
+    },
+    {
+      "name": "pencil",
+      "price": "0.99",
+      "description": "Artisan fashioned pencil, hand cut wood."
+    }
+  ]
+}
