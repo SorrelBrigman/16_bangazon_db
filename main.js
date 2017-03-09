@@ -12,7 +12,7 @@ const errorHandler = (err) => {
 };
 
 //create customers table
-db.run('CREATE TABLE IF NOT EXISTS customers(customerid INTEGER PRIMARY KEY AUTOINCREMENT, firstname TEXT, lastname TEXT, address TEXT, city TEXT, postalcode INT, phonenumber BLOB)', (err)=>{
+db.run('CREATE TABLE IF NOT EXISTS customers(customerid INTEGER PRIMARY KEY AUTOINCREMENT, firstname TEXT, lastname TEXT, address TEXT, city TEXT, state TEXT, postalcode TEXT, phonenumber BLOB)', (err)=>{
   errorHandler(err);
 });
 //create payment_options table

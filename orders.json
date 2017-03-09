@@ -3,52 +3,62 @@
     {
       "customerid": 1,
       "paymentid": 1,
-      "paidinfull": 0
+      "paidinfull": 0,
+      "date": "2004-01-01 02:34:56"
     },
     {
       "customerid": 2,
       "paymentid": 2,
-      "paidinfull": 0
+      "paidinfull": 0,
+      "date": "2004-01-01 02:34:56"
     },
     {
       "customerid": 1,
       "paymentid": 3,
-      "paidinfull": 1
+      "paidinfull": 1,
+      "date": "2004-01-01 02:34:56"
     },
     {
       "customerid": 3,
       "paymentid": 4,
-      "paidinfull": 0
+      "paidinfull": 0,
+      "date": "2004-01-01 02:34:56"
     },
     {
       "customerid": 9,
       "paymentid": 1,
-      "paidinfull": 1
+      "paidinfull": 1,
+      "date": "2004-01-01 02:34:56"
     },
     {
       "customerid": 7,
       "paymentid": 5,
-      "paidinfull": 0
+      "paidinfull": 0,
+      "date": "2004-01-01 02:34:56"
     },
     {
       "customerid": 8,
       "paymentid": 7,
-      "paidinfull": 0
+      "paidinfull": 0,
+      "date": "2004-01-01 02:34:56"
     },
     {
       "customerid": 4,
       "paymentid": 6,
-      "paidinfull": 0
+      "paidinfull": 0,
+      "date": "2004-01-01 02:34:56"
     },
     {
       "customerid": 9,
       "paymentid": 2,
-      "paidinfull": 0
+      "paidinfull": 0,
+      "date": "2004-01-01 02:34:56"
     },
     {
       "customerid": 10,
       "paymentid": 10,
-      "paidinfull": 1
+      "paidinfull": 1,
+      "date": "2004-01-01 02:34:56"
     }
   ]
 }
