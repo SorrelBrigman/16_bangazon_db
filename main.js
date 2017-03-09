@@ -28,7 +28,7 @@ db.run('CREATE TABLE IF NOT EXISTS products(productid INTEGER PRIMARY KEY AUTOIN
   errorHandler(err);
 });
 //create order_line_items table
-db.run('CREATE TABLE IF NOT EXISTS order_line_items(lineitemid INTEGER PRIMARY KEY AUTOINCREMENT, orderid INT, productid INT, FOREIGN KEY (orderid) REFERENCES orders(orderid), FOREIGN KEY (productid) REFERENCES products(productid))', (err)=>{
+db.run('CREATE TABLE IF NOT EXISTS order_line_items(lineitemid INTEGER PRIMARY KEY AUTOINCREMENT, orderid INT, productid INT, quanity INT, FOREIGN KEY (orderid) REFERENCES orders(orderid), FOREIGN KEY (productid) REFERENCES products(productid))', (err)=>{
   errorHandler(err);
 });
 //create product_reviews table
