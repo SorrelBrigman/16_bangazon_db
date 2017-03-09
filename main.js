@@ -12,15 +12,15 @@ const errorHandler = (err) => {
 };
 
 //create customers table
-db.run('CREATE TABLE IF NOT EXISTS customers(customerid id INTEGER PRIMARY KEY AUTOINCREMENT, firstname TEXT, lastname TEXT, address TEXT, city TEXT, postalcode INT, phonenumber BLOB)', (err)=>{
-  errorHandler(err);
-});
-//create orders table
-db.run('CREATE TABLE IF NOT EXISTS orders(orderid INTEGER PRIMARY KEY AUTOINCREMENT, customerid INT, paymentid INT, paidinfull INT, date TEXT)', (err)=>{
+db.run('CREATE TABLE IF NOT EXISTS customers(customerid INTEGER PRIMARY KEY AUTOINCREMENT, firstname TEXT, lastname TEXT, address TEXT, city TEXT, postalcode INT, phonenumber BLOB)', (err)=>{
   errorHandler(err);
 });
 //create payment_options table
 db.run('CREATE TABLE IF NOT EXISTS payment_options(paymentid INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, accountnumber BLOB)', (err)=>{
+  errorHandler(err);
+});
+//create orders table
+db.run('CREATE TABLE IF NOT EXISTS orders(orderid INTEGER PRIMARY KEY AUTOINCREMENT, customerid INT, paymentid INT, paidinfull INT, date TEXT, FOREIGN KEY (customerid) REFERENCES customers(customerid), FOREIGN KEY (paymentid) REFERENCES payment_options(paymentid))', (err)=>{
   errorHandler(err);
 });
 //create products table
@@ -28,10 +28,10 @@ db.run('CREATE TABLE IF NOT EXISTS products(productid INTEGER PRIMARY KEY AUTOIN
   errorHandler(err);
 });
 //create order_line_items table
-db.run('CREATE TABLE IF NOT EXISTS order_line_items(lineitemid INTEGER PRIMARY KEY AUTOINCREMENT, orderid INT, productid INT)', (err)=>{
+db.run('CREATE TABLE IF NOT EXISTS order_line_items(lineitemid INTEGER PRIMARY KEY AUTOINCREMENT, orderid INT, productid INT, FOREIGN KEY (orderid) REFERENCES orders(orderid), FOREIGN KEY (productid) REFERENCES products(productid))', (err)=>{
   errorHandler(err);
 });
-//create product_review table
-db.run('CREATE TABLE IF NOT EXISTS product_review(reviewid INTEGER PRIMARY KEY AUTOINCREMENT, productid INT, customerid INT, rating INT, reviewtext BLOB)', (err)=>{
+//create product_reviews table
+db.run('CREATE TABLE IF NOT EXISTS product_reviews(reviewid INTEGER PRIMARY KEY AUTOINCREMENT, productid INT, customerid INT, rating INT, reviewtext BLOB, FOREIGN KEY (productid) REFERENCES products(productid), FOREIGN KEY (customerid) REFERENCES customers(customerid))', (err)=>{
   errorHandler(err);
 });
