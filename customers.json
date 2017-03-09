@@ -1,9 +1,94 @@
 {
-  "customers": [
-    {
-      "firstname": "Imogen",
-      "lastname" : "Heap",
-
-    }
-  ]
+    "customers": [
+        {
+            "firstname": "Imogen",
+            "lastname": "Heap",
+            "address": "123 Seasme Street",
+            "city": "New York",
+            "state": "New York",
+            "postalcode": "00000",
+            "phonenumber": "555-555-1234"
+        },
+        {
+            "firstname": "Ed",
+            "lastname": "Sheeran",
+            "address": "123 Dublin Way",
+            "city": "New York",
+            "state": "New York",
+            "postalcode": "00000",
+            "phonenumber": "555-555-9876"
+        },
+        {
+            "firstname": "Mike",
+            "lastname": "Posner",
+            "address": "123 Sunshine Place",
+            "city": "LA",
+            "state": "California",
+            "postalcode": "99999",
+            "phonenumber": "555-555-9111"
+        },
+        {
+            "firstname": "Slim",
+            "lastname": "Shady",
+            "address": "123 Mile 8",
+            "city": "Detroit",
+            "state": "Michagin",
+            "postalcode": "12345",
+            "phonenumber": "555-555-92222"
+        },
+        {
+            "firstname": "Justin",
+            "lastname": "Beiber",
+            "address": "123 Crazy Lane",
+            "city": "Santa Monica",
+            "state": "California",
+            "postalcode": "90210",
+            "phonenumber": "555-555-9333"
+        },
+        {
+            "firstname": "Paul",
+            "lastname": "Simon",
+            "address": "123 Silent Sound",
+            "city": "Brooklyn",
+            "state": "New York",
+            "postalcode": "00000",
+            "phonenumber": "555-555-9444"
+        },
+        {
+            "firstname": "John",
+            "lastname": "Denver",
+            "address": "123 Country Road",
+            "city": "Shanadoah",
+            "state": "West Virgina",
+            "postalcode": "12345",
+            "phonenumber": "555-555-9555"
+        },
+        {
+            "firstname": "James",
+            "lastname": "Taylor",
+            "address": "123 Fire And Rain",
+            "city": "Chapel Hill",
+            "state": "North Carolina",
+            "postalcode": "54321",
+            "phonenumber": "555-555-9666"
+        },
+        {
+            "firstname": "Carol",
+            "lastname": "King",
+            "address": "123 Friend",
+            "city": "Apple",
+            "state": "New York",
+            "postalcode": "00000",
+            "phonenumber": "555-555-9777"
+        },
+        {
+            "firstname": "Paul",
+            "lastname": "McCartney",
+            "address": "123 Wings Blvd",
+            "city": "London",
+            "state": "Texas",
+            "postalcode": "79812",
+            "phonenumber": "555-555-98888"
+        }
+    ]
 }
