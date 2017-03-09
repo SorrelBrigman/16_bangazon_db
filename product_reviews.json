@@ -1,0 +1,64 @@
+{
+  "product_reviews" : [
+    {
+      "productid": 3,
+      "customerid": 7,
+      "rating": 5,
+      "reviewtext": "Love it, best thing ever!"
+    },
+    {
+      "productid": 3,
+      "customerid": 1,
+      "rating": 4,
+      "reviewtext": "Love it, but it could be better"
+    },
+    {
+      "productid": 3,
+      "customerid": 2,
+      "rating": 1,
+      "reviewtext": "This thing sucks."
+    },
+    {
+      "productid": 2,
+      "customerid": 9,
+      "rating": 5,
+      "reviewtext": "Love it, I'm buying one for everyone I know!"
+    },
+    {
+      "productid": 9,
+      "customerid": 2,
+      "rating": 3,
+      "reviewtext": "It's not what I expected."
+    },
+    {
+      "productid": 8,
+      "customerid": 2,
+      "rating": 2,
+      "reviewtext": "Very disappointed with this product. It did perform as expected."
+    },
+    {
+      "productid": 8,
+      "customerid": 1,
+      "rating": 4,
+      "reviewtext": "Works as expected, but wore out must faster than I thought it would"
+    },
+    {
+      "productid": 10,
+      "customerid": 5,
+      "rating": 5,
+      "reviewtext": "Love it, will buy again!"
+    },
+    {
+      "productid": 3,
+      "customerid": 8,
+      "rating": 2,
+      "reviewtext": "Very poorly made. Can't recommend"
+    },
+    {
+      "productid": 3,
+      "customerid": 7,
+      "rating": 3,
+      "reviewtext": "Fair."
+    }
+  ]
+}
