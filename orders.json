@@ -1,0 +1,54 @@
+{
+  "orders": [
+    {
+      "customerid": 1,
+      "paymentid": 1,
+      "paidinfull": 0
+    },
+    {
+      "customerid": 2,
+      "paymentid": 2,
+      "paidinfull": 0
+    },
+    {
+      "customerid": 1,
+      "paymentid": 3,
+      "paidinfull": 1
+    },
+    {
+      "customerid": 3,
+      "paymentid": 4,
+      "paidinfull": 0
+    },
+    {
+      "customerid": 9,
+      "paymentid": 1,
+      "paidinfull": 1
+    },
+    {
+      "customerid": 7,
+      "paymentid": 5,
+      "paidinfull": 0
+    },
+    {
+      "customerid": 8,
+      "paymentid": 7,
+      "paidinfull": 0
+    },
+    {
+      "customerid": 4,
+      "paymentid": 6,
+      "paidinfull": 0
+    },
+    {
+      "customerid": 9,
+      "paymentid": 2,
+      "paidinfull": 0
+    },
+    {
+      "customerid": 10,
+      "paymentid": 10,
+      "paidinfull": 1
+    }
+  ]
+}
