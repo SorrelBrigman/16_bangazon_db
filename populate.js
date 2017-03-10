@@ -29,7 +29,7 @@ const populateCustomers= () => {
       })
   })
 }
-// populateCustomers();
+populateCustomers();
 
 // //populate payment_options table
 const populatePayment= () => {
@@ -42,7 +42,7 @@ const populatePayment= () => {
       })
   })
 }
-// populatePayment();
+populatePayment();
 
 // //populate orders table
 const populateOrders= () => {
@@ -57,7 +57,7 @@ const populateOrders= () => {
       })
   })
 }
-// populateOrders();
+populateOrders();
 
 
 // //populate products table
@@ -72,7 +72,7 @@ const populateProducts= () => {
       })
   })
 }
-// populateProducts();
+populateProducts();
 
 
 // //populate order_line_items table
@@ -87,7 +87,7 @@ const populateOrderLineItems= () => {
       })
   })
 }
-// populateOrderLineItems();
+populateOrderLineItems();
 
 
 // //populate product_reviews table
@@ -104,4 +104,4 @@ const populateProductReviews= () => {
   })
 }
 
-// populateProductReviews();
+populateProductReviews();
