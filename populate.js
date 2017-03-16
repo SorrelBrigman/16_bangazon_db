@@ -37,7 +37,8 @@ const populatePayment= () => {
   payment_options.forEach(each => {
     db.run(`INSERT INTO payment_options VALUES(null,
       "${each.name}",
-      "${each.accountnumber}")`, (err)=>{
+      "${each.accountnumber}",
+      ${each.customerid})`, (err)=>{
         errorHandler(err);
       })
   })

@@ -16,7 +16,7 @@ db.run('CREATE TABLE IF NOT EXISTS customers(customerid INTEGER PRIMARY KEY AUTO
   errorHandler(err);
 });
 //create payment_options table
-db.run('CREATE TABLE IF NOT EXISTS payment_options(paymentid INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, accountnumber BLOB NOT NULL)', (err)=>{
+db.run('CREATE TABLE IF NOT EXISTS payment_options(paymentid INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL, accountnumber BLOB NOT NULL, customerid INT, FOREIGN KEY (customerid) REFERENCES customers(customerid))', (err)=>{
   errorHandler(err);
 });
 //create orders table
